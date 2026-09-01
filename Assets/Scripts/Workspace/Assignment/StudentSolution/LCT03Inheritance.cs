@@ -16,13 +16,23 @@ namespace Assignment.StudentSolution.LCT03
     // class Dog inherits from Animal
     public class Dog
     {
-
+        public void Walk()
+        {
+        Debug.Log("Walk");
+}
     }
 
     // class Bird inherits from Animal
     public class Bird
     {
-
+        public void Fly()
+        {
+        Debug.Log("Fly");
+        }
+        public void Walk()
+        {
+            Debug.Log("Walk");
+        }
     }
 
     public class LCT03Inheritance
